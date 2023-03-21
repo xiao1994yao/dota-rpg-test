@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "dota"
+  ],
+  "Lua.diagnostics.globals": [
+    "lfs",
+    "result"
+  ],
+  "Lua.workspace.library": [
+    "${3rd}/lfs/library"
+  ]
+}

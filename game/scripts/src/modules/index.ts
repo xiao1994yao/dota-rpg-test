@@ -21,5 +21,15 @@ export function ActivateModules() {
         new GameConfig();
         // 初始化测试模块xD
         new Debug();
+        ListenToGameEvent(
+            'npc_spawned',
+            event => {
+                const ent = EntIndexToHScript(event.entindex) as CDOTA_BaseNPC;
+                if (ent.IsHero()) {
+                    ent.HeroLevelUp(true);
+                }
+            },
+            null
+        );
     }
 }

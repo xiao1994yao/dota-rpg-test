@@ -1,0 +1,27 @@
+// Dota Heroes File
+// NOTE: This isn't for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	"npc_dota_hero_juggernaut"
+	{
+		"override_hero"				"npc_dota_hero_juggernaut"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"Ability1"					"ability_test"
+		"Ability2"					"skeleton_king_hellfire_blast"
+		"Ability3"					"skeleton_king_hellfire_blast"
+		"Ability4"					"skeleton_king_hellfire_blast"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackRate"				"1000"
+		"AttackAnimationPoint"		"1000"
+
+		"MovementTurnRate"			"4.0"
+
+		"StatusHealthRegen"			"1.0"
+		"StatusManaRegen"			"1.0"
+
+		"VisionDaytimeRange"		"1200"
+		"VisionNighttimeRange"		"700"
+	}
+}
